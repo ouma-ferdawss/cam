@@ -10,6 +10,7 @@ Route::get('/', function () {
 })->name('home');
 // End access to home without middleware
 // Authentication Routes
+// qdkqdfoqef
 Route::get('/login', [AuthController::class, 'showLoginRegister'])->name('login'); // Show login/register form
 Route::post('/register', [AuthController::class, 'register'])->name('register'); // Handle registration
 Route::post('/login', [AuthController::class, 'login'])->name('doLogin'); // Handle login
