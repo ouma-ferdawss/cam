@@ -38,41 +38,37 @@
                     {{--<a href="{{url('/')}}"><img src="{{asset('assets/img/logo.png')}}" alt="Logo" /></a>--}}
                     <a href="{{route('home')}}"><img src="{{asset('assets/img/logo.png')}}" alt="Logo" /></a>
                 </div>
-
-                <!--nav id="nav-menu-container">
-                  <  <ul class="nav-menu">
-                        <li class="menu-active"><a href="index.html">Home</a></li>
-                        li><a href="about.html">About</a></li>
-                        <li><a href="speaker.html">Speakers</a></li>
-                        <li><a href="agenda.html">Agenda</a></li>
-                        <li><a href="venue.html">Venue</a></li>
-                        <li><a href="ticket.html">Tickets</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="login.html">Login</a></li>>
-                    </ul>
-                </nav>
-                <#nav-menu-container -->
             </div>
         </header>
-        <!-- #header end -->
+       
 
-        <!-- Intro Section Start-->
+
         <section id="intro">
             <div class="intro-container">
-                <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
-
+                <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators"></ol>
-
                     <div class="carousel-inner" role="listbox">
-
                         <div class="carousel-item active">
-                            <div class="carousel-background"><img src="{{asset('assets/img/slider-1.jpg')}}" alt=""></div>
+                            <div class="carousel-background">
+                                <img src="{{asset('assets/img/slider-1.jpg')}}" alt="">
+                            </div>
                             <div class="carousel-container">
                                 <div class="carousel-content">
-                                    <h2>CAM World Elite </h2>
+                                    <h2>CAM WORLD ELITE</h2>
                                     <p>
-                                        World Elite Launch, UEFA CL Campaign & Salesforce Training.
+                                        Technologie & Innovation
                                     </p>
+                                    <!-- Add Date and Location Section -->
+                                    <div class="event-details">
+                                        <div class="event-item">
+                                            <img src="{{asset('assets/img/date.png')}}" alt="Date Icon" class="event-icon">
+                                            <span>Mardi 17 décembre 2024</span>
+                                        </div>
+                                        <div class="event-item">
+                                            <img src="{{asset('assets/img/lieu.png')}}" alt="Lieu Icon" class="event-icon">
+                                            <span>Hôtel Four Seasons Casablanca</span>
+                                        </div>
+                                    </div>
                                     <a href="{{route('participate.form')}}" class="btn-get-started scrollto">Confirmer ma présence</a>
                                 </div>
                             </div>
@@ -81,78 +77,14 @@
                 </div>
             </div>
         </section>
-        <!-- #intro end -->
-
-  <!-- Ticket Section Start -->
-  <section id="ticket">
-    <div class="container">
-        <header class="section-header">
-            <h3>À propos</h3>
-        </header>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="single-ticket">
-                    <h2 style="padding: 28px;">DATE : </br> 17/12/2024</h2>
-                
-                    
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="single-ticket">
-                    <h2 style="padding: 3px;">LIEU :</br> Four Seasons Casablanca</h2>
-                   
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="single-ticket">
-
-                   <h2 style="padding: 20px;"> <a href="/participate">Confirmer ma présence </a></h2>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Ticket Section End -->
-
-
-
-
-
-
-        <!--About Section Start>
-        <section id="about">
-            <div class="container">
-                <header class="section-header">
-                    <h3>About Us</h3>
-                </header>
-                <div class="row">
-                    <div class="col-md-4 about-col-1">
-                        <div class="about-title">  
-                            <h1>Welcome to Tech Innovation Conference 2019</h1>
-                            <a href="#">Buy Tickets</a>
-                        </div>
-                    </div>
-                    <div class="col-md-8 about-col-2">
-                        <div class="about-imgs">
-                            <div class="about-img">
-                                <img class="img-fluid" src="{{asset('assets/img/about.jpg')}}" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <About Section end -->
-      
-        
+         
         <!-- Agenda Section Start -->
 
 
         <section id="agenda">
             <div class="container">
-                <header class="section-header text-center mb-5">
-                    <h3 class="section-title">Programme de l'événement</h3>
+                <header class="section-header">
+                    <h3>Programme de l'événement</h3>
                 </header>
         
                 <div class="row align-items-center">
@@ -309,7 +241,7 @@
         <section id="call-to-action">
             <div class="container text-center">
                 <!--h3>Click Below to Call Us</h3-->
-                <a class="cta-btn" href="#">Confirmer ma présence</a>
+                <a class="cta-btn" href="/participate">Confirmer ma présence</a>
             </div>
         </section>
         <!-- Call To Action end -->
