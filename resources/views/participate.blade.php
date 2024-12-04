@@ -64,7 +64,26 @@
             </form>
             
         </div>
+   
+  
     </div>
+    
+    
+    
+    
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="footer-container">
+            <p>© Copyright <strong>Crédit Agricole</strong>. Tous droits réservés</p>
+            <p>Site réalisé par <a href="https://nextbridge.com" target="_blank">Next Bridge</a></p>
+        </div>
+    </footer>
+
+    <!-- Footer End -->
+
+
+
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -1176,7 +1176,7 @@ h6 {
 #footer {
     position: relative;
     background: #000000;
-    padding: 0 0 30px 0;
+    padding: 0 0 10px 0;
     text-align: center;
 }
 
@@ -1185,34 +1185,6 @@ h6 {
     padding: 45px 0;
 }
 
-#footer .footer-top .social-links a {  
-    margin: 0 10px;
-    display: inline-block;
-    font-size: 30px;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    text-align: center;
-    box-shadow: 0 0 0 4px #ffffff inset, 0 0 5px 0 rgba(000, 000, 000, 0.5);
-    color: #fff;
-    transition: all 0.3s;
-}
-
-#footer .footer-top .social-links a:hover {
-    box-shadow: 0 0 0 4px #ffffff inset, 0 0 5px 0 rgba(000, 000, 000, 0.5);
-    background: #ffffff;
-    color: #222222;
-}
-
-@media (max-width: 575.98px) {
-    #footer .footer-top .social-links a {
-        margin: 0 2px;
-        font-size: 20px;
-        height: 40px;
-        width: 40px;
-        line-height: 40px;
-    }
-}
 
 #footer .copyright {
     text-align: center;
@@ -1278,10 +1250,6 @@ h6 {
 
     #intro p {
         font-size: 30px;
-    }
-
-    #nav-menu-container {
-        display: none;
     }
 
     #mobile-nav-toggle {
